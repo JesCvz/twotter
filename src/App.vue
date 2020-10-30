@@ -8,7 +8,10 @@
 import UserProfile from "@/components/UserProfile";
 export default{
   name:'App',
-  components: {UserProfile}
+  components: {
+    UserProfile,
+
+  }
 }
 </script>
 
@@ -19,6 +22,6 @@ export default{
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   min-height: 100vh;
-  background-color: #f3f5fa;
+  background-color: #eeebea;
 }
 </style>
