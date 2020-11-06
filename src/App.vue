@@ -1,15 +1,18 @@
 <template>
   <div id="app">
-    <UserProfile/>
+    <div class="background">
+      <app-nav></app-nav>
+    </div>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import UserProfile from "@/components/UserProfile";
+import Header from "@/Headers/Header";
 export default{
   name:'App',
   components: {
-    UserProfile,
+    appNav: Header,
 
   }
 }
@@ -23,5 +26,8 @@ export default{
   color: #2c3e50;
   min-height: 100vh;
   background-color: #eeebea;
+}
+.background{
+  background: #1DA1F2;
 }
 </style>
