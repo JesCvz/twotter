@@ -10,8 +10,8 @@
           </div>
         </div>
         <div class="col">
-          <div class="texto_right">
-            @temp{{}}
+          <div class="texto_right" v-if="users">
+            @{{users.username}}
           </div>
         </div>
       </div>
@@ -19,20 +19,17 @@
 </template>
 
 <script>
-import { reactive } from 'vue';
-import User from "@/components/User";
+import {computed} from 'vue';
+import {useStore} from 'vuex';
 export default {
 name: "Header",
   setup(){
-  const state = reactive({
-    User
-  })
-
-    return {
-    state,
+  const store = useStore();
+  const users = computed(() => store.state.user);
+    return{
+      users
     }
   }
-
 }
 </script>
 

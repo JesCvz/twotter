@@ -1,6 +1,5 @@
 export default [
     {
-      "followers": 0,
       "id": 1,
       "username": "JesusMarroquin",
       "firstName": "Jesus",
@@ -15,7 +14,6 @@ export default [
       ]
     },
     {
-      "followers": 0,
       "id": 2,
       "username": "JorgeMerlo",
       "firstName": "Jorge",
@@ -28,7 +26,6 @@ export default [
       ]
     },
     {
-      "followers": 0,
       "id": 3,
       "username": "LuisFlores",
       "firstName": "Luis",
@@ -41,7 +38,6 @@ export default [
       ]
     },
     {
-      "followers": 0,
       "id": 4,
       "username": "AlondraCortees",
       "firstName": "Alondra",
