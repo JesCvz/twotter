@@ -10,10 +10,14 @@
   "dependencies": {
     "bootstrap": "^4.5.3",
     "bootstrap-vue": "^2.18.1",
+    "connect-history-api-fallback": "^1.6.0",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
     "firebase": "^8.0.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^10.0.3",
+    "serve-static": "^1.14.1",
     "vue": "^3.0.2",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
