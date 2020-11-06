@@ -38,7 +38,7 @@ name: "CreateTwoot",
     function createNewTwoot(){
       if(state.newTwootContent && state.selectedTwootType !== 'draft')
       {
-        if(state.newTwootContent.length<110)
+        if(state.newTwootContent.length<=110)
         {
           ctx.emit('addtwoot', state.newTwootContent);
           state.newTwootContent = '';
