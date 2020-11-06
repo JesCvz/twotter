@@ -7,7 +7,7 @@
       </div>
 
       <div class="user-profile_follower-count">
-        <strong>Followers: </strong> {{ state.followers }}
+        <strong>Followers: </strong> {{ state.user.followers }}
       </div>
 
       <app-create-twoot @addtwoot="addTwoot"/>
@@ -121,4 +121,70 @@ name: "UserProfiles",
     margin-top: 10px;
   }
 }
+@media screen and (orientation: portrait) {
+
+  .user-profile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 5%;
+
+    .user-profile_user-panel {
+      display: flex;
+      flex-direction: column;
+      margin-right: 50px;
+      padding: 15px;
+      background-color: white;
+      border-radius: 5px;
+      border: 1px solid #DFE3E8;
+
+      h1 {
+        margin: 0;
+      }
+
+      .user-profile_admin-badge {
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        margin-right: auto;
+        padding: 0 10px;
+        font-weight: bold;
+      }
+
+      .user-profile_create-twoot {
+        border-top: 2px solid cyan;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+
+        &.--exceeded {
+          color: red;
+
+          button {
+            background-color: red;
+            border: none;
+            color: white;
+
+          }
+        }
+
+      }
+      .btn-primary{
+        margin-left: 287px;
+        width: 100px;
+        height: 30px;
+        background-color: dodgerblue;
+        border: 1px;
+        color: white;
+      }
+    }
+    .user-profile_create-twoot-type{
+      margin-top: 10px;
+    }
+  }
+  .user-profile_twoots{
+    margin-top: 20px;
+  }
+}
+
 </style>

@@ -4,6 +4,7 @@ export default [
       "username": "JesusMarroquin",
       "firstName": "Jesus",
       "lastName": "Marroquin",
+      "followers": "2",
       "email": "jes@hotmail.com",
       "isAdmin": true,
       "twoots": [
@@ -18,7 +19,8 @@ export default [
       "id": 2,
       "username": "JorgeMerlo",
       "firstName": "Jorge",
-      "lastName": "Melo",
+      "lastName": "Merlo",
+      "followers": "5",
       "email": "jorge@hotmail.com",
       "isAdmin": false,
       "twoots": [
@@ -32,6 +34,7 @@ export default [
       "username": "LuisFlores",
       "firstName": "Luis",
       "lastName": "Flores",
+      "followers": "10",
       "email": "luis@hotmail.com",
       "isAdmin": false,
       "twoots": [
@@ -44,6 +47,7 @@ export default [
       "username": "AlondraCortees",
       "firstName": "Alondra",
       "lastName": "Cortes",
+      "followers": "9",
       "email": "alondra@hotmail.com",
       "isAdmin": true,
       "twoots": [
@@ -56,6 +60,7 @@ export default [
       "username": "Prueba1",
       "firstName": "Prueba",
       "lastName": "1",
+      "followers": "2",
       "email": null,
       "isAdmin": true,
       "twoots": [
@@ -68,6 +73,7 @@ export default [
       "username": "Prueba2",
       "firstName": "Prueba",
       "lastName": "2",
+      "followers": "2",
       "email": null,
       "isAdmin": true,
       "twoots": [
@@ -80,6 +86,7 @@ export default [
       "username": "Prueba3",
       "firstName": "Prueba",
       "lastName": "3",
+      "followers": "2",
       "email": null,
       "isAdmin": true,
       "twoots": [
