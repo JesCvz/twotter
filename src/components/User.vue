@@ -122,7 +122,7 @@ name: "UserProfiles",
     margin-top: 10px;
   }
 }
-@media screen and (orientation: portrait) {
+@media screen and (max-width: 576px) {
 
   .user-profile {
     display: flex;
