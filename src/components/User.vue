@@ -66,6 +66,7 @@ name: "UserProfiles",
   padding: 50px 5%;
 
 
+
   .user-profile_user-panel {
     display: flex;
     flex-direction: column;
@@ -132,15 +133,14 @@ name: "UserProfiles",
     .user-profile_user-panel {
       display: flex;
       flex-direction: column;
-      margin-right: 50px;
+      margin-right: 1000px;
       padding: 15px;
       background-color: white;
       border-radius: 5px;
       border: 1px solid #DFE3E8;
+      width: 360px;
+      height: 360px;
 
-      h1 {
-        margin: 0;
-      }
 
       .user-profile_admin-badge {
         background-color: green;
